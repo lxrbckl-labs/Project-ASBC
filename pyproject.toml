@@ -7,10 +7,10 @@ readme = "README.md"
 packages = [{include = "project_asbc"}]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.14"
+python = ">=3.11,<3.14"
 pyautogui = "^0.9.53"
 tox = "^4.5.1"
-pillow = "^12.1.1"
+pillow = "^13.0.0"
 torch = "^2.13.0"
 opencv-python = "^4.8.1.78"
 pandas = "^2.0.1"
